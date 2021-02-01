@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <main class="main">
+            <div class="main__title">
+                <h1>Калькулятор для тебя</h1>
+            </div>
+            <div class="app">
+                <div class="app__component">
+                    <h2 class="app__component--itme">Делимое: </h2>
+                    <input id="divisible"class="app__component--input"type="number" value="0">
+                </div>
+                <div class="app__component">
+                    <h2 class="app__component--itme">Делитель: </h2>
+                    <input id="divisor"class="app__component--input"type="number" value="0">
+                </div>
+                <div class="app__component">
+                    <h2 class="app__component--itme">Частное: </h2>
+                    <div id="private"class="app__component--output">0</div>
+                </div>
+                <div class="app__component">
+                    <h2 class="app__component--itme">Остаток: </h2>
+                    <div id="remains" class="app__component--output">0</div>
+                </div>
+                <button id="button"class="app__btn"value="Посчитать">Посчитать</button>
+            </div>
+        </main>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
